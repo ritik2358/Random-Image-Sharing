@@ -66,8 +66,8 @@ export default class App extends Component {
             overlayClassName="modal-overlay"
           >
             <div className="modal-content">
-              <h1 className='text-center pb-4'>Share Image</h1>
-              <div className="share-icons">
+              <h1 className='text-center pb-4'>Share Image on </h1>
+              <div className="share-icons pb-4">
                 <FacebookShareButton
                   url={imageUrl}
                   quote={shareTitle}
@@ -97,7 +97,7 @@ export default class App extends Component {
                 <img src={imageUrl} alt="Preview" />
               </div>
             </div>
-            <button onClick={this.closeModal} className="close-button">
+            <button onClick={this.closeModal} className="inline-flex items-center justify-center h-10 px-5 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-red-500 hover:bg-red-500 hover:text-white hover:border-2 border-white focus:shadow-outline focus:outline-none">
               Close
             </button>
           </Modal>
