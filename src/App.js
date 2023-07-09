@@ -34,7 +34,7 @@ export default class App extends Component {
 
     return (
       <div className='flex flex-col justify-center items-center'>
-        <div className='text-center font-bold text-4xl p-2 pb-4'>Image Sharing</div>
+        <div className='text-center font-bold text-4xl p-2 pb-4'>Random Image Sharing</div>
         <img
           className="text-center object-cover w-1/2 pb-4 h-42 md:h-64 xl:h-80"
           src={imageUrl}
@@ -66,7 +66,7 @@ export default class App extends Component {
             overlayClassName="modal-overlay"
           >
             <div className="modal-content">
-              <h1 className='text-center pb-4'>Share Image on </h1>
+              <h1 className='text-center pb-4'>Share Image on  </h1>
               <div className="share-icons pb-4">
                 <FacebookShareButton
                   url={imageUrl}
