@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ritik2358-Ritik/static/css/main.90bbcee6.css",
+    "main.js": "/ritik2358-Ritik/static/js/main.210faa36.js",
+    "index.html": "/ritik2358-Ritik/index.html",
+    "main.90bbcee6.css.map": "/ritik2358-Ritik/static/css/main.90bbcee6.css.map",
+    "main.210faa36.js.map": "/ritik2358-Ritik/static/js/main.210faa36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90bbcee6.css",
+    "static/js/main.210faa36.js"
+  ]
+}
